@@ -1,0 +1,40 @@
+// Variables for colors and fonts
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$text-color: #212529;
+
+// Basic body styles
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: $text-color;
+  background-color: $background-color;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+// Headers styles
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+}
+
+// Link styles
+a {
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Container for main content area
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
