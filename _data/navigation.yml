@@ -1,9 +1,18 @@
 main:
-  - title: "Home"
-    url: "/index.html"
+  - title: "Introduction"
+    url: "/"
 
-  - title: "About"
-    url: "/about/"
+  - title: "Getting Started"
+    url: "/getting-started/"
 
-  - title: "Contact"
+  - title: "User Guides"
+    url: "/user-guides/"
+
+  - title: "API Documentation"
+    url: "/api-docs/"
+
+  - title: "FAQs"
+    url: "/faqs/"
+
+  - title: "Contact Support"
     url: "/contact/"
