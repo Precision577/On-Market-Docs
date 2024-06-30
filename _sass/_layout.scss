@@ -1,0 +1,52 @@
+// Import base styles
+@import "base";
+
+// Header styling
+header {
+  background-color: $primary-color;
+  padding: 1rem 0;
+  color: #fff;
+  text-align: center;
+
+  nav {
+    margin-top: 1rem;
+
+    ul {
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+
+      li {
+        margin: 0 15px;
+
+        a {
+          color: inherit; // Use the color from the header
+          &:hover {
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Main content area
+main {
+  padding: 2rem 0;
+}
+
+// Footer styling
+footer {
+  background-color: $secondary-color;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+
+  p {
+    margin: 0;
+  }
+}
